@@ -1,4 +1,9 @@
-package me.readln.etc;
+package me.readln.etc.ui;
+
+import me.readln.etc.game.GameField;
+import me.readln.etc.game.GameScreen;
+import me.readln.etc.gameobjects.Bullet;
+import me.readln.etc.gameobjects.Ship;
 
 import java.io.IOException;
 

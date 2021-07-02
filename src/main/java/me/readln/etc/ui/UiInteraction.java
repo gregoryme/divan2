@@ -1,8 +1,10 @@
-package me.readln.etc;
+package me.readln.etc.ui;
 
 import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.input.KeyType;
 import com.googlecode.lanterna.terminal.Terminal;
+import me.readln.etc.func.TranslateInteraction;
+
 import java.io.IOException;
 
 // The purpose of this class is to read what

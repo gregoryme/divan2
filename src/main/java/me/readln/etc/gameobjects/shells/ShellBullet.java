@@ -1,6 +1,8 @@
-package me.readln.etc;
+package me.readln.etc.gameobjects.shells;
 
 // This class is independent of output devices
+
+import me.readln.etc.gameobjects.shells.ShellBase;
 
 public class ShellBullet extends ShellBase {
 

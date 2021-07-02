@@ -1,9 +1,16 @@
-package me.readln.etc;
+package me.readln.etc.game;
+
+import me.readln.etc.func.DisplayShell;
+import me.readln.etc.gameobjects.Bullet;
+import me.readln.etc.gameobjects.GameObject;
+import me.readln.etc.gameobjects.Ship;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 // This class is independent of output devices
+
+// @Todo need in refactoring
 
 public class GameField {
 

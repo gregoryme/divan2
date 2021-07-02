@@ -1,4 +1,4 @@
-package me.readln.etc;
+package me.readln.etc.func;
 
 import com.googlecode.lanterna.input.KeyStroke;
 

@@ -1,8 +1,10 @@
-package me.readln.etc;
+package me.readln.etc.gameobjects.shells;
 
 // This class is independent of output devices
 
 import lombok.Data;
+import me.readln.etc.enums.Orientation;
+import me.readln.etc.func.DisplayShell;
 
 @Data
 public class ShellBase implements Shell {

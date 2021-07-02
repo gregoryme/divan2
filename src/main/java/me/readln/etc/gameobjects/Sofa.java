@@ -1,6 +1,10 @@
-package me.readln.etc;
+package me.readln.etc.gameobjects;
 
 // This class is independent of output devices
+
+import me.readln.etc.enums.Orientation;
+import me.readln.etc.gameobjects.shells.Shell;
+import me.readln.etc.gameobjects.shells.ShellSofa;
 
 public class Sofa extends Entity {
 

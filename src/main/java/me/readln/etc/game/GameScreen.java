@@ -1,4 +1,4 @@
-package me.readln.etc;
+package me.readln.etc.game;
 
 import com.googlecode.lanterna.SGR;
 import com.googlecode.lanterna.TerminalSize;
@@ -6,6 +6,7 @@ import com.googlecode.lanterna.TextColor;
 import com.googlecode.lanterna.graphics.TextGraphics;
 import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import com.googlecode.lanterna.terminal.Terminal;
+import me.readln.etc.func.inCaseOfChangeSizes;
 
 import java.io.IOException;
 

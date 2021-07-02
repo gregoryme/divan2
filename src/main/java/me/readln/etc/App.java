@@ -4,7 +4,9 @@
 
 package me.readln.etc;
 
-public class App 
+import me.readln.etc.game.Game;
+
+public class App
 {
     public static void main( String[] args )
     {

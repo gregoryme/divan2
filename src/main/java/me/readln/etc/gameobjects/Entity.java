@@ -1,8 +1,10 @@
-package me.readln.etc;
+package me.readln.etc.gameobjects;
 
 // This class is independent of output devices
 
 import lombok.Data;
+import me.readln.etc.enums.Orientation;
+import me.readln.etc.gameobjects.shells.Shell;
 
 @Data
 public class Entity implements GameObject {

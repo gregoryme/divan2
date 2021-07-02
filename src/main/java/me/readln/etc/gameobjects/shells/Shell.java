@@ -1,4 +1,7 @@
-package me.readln.etc;
+package me.readln.etc.gameobjects.shells;
+
+import me.readln.etc.enums.Orientation;
+import me.readln.etc.func.DisplayShell;
 
 public interface Shell {
 

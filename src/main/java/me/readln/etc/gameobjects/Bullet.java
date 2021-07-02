@@ -1,25 +1,14 @@
-package me.readln.etc;
+package me.readln.etc.gameobjects;
 
 // This class is independent of output devices
+
+import me.readln.etc.gameobjects.shells.Shell;
+import me.readln.etc.gameobjects.shells.ShellBullet;
 
 public class Bullet extends Entity {
 
     private Shell shell;
     private static int usedBullets = 0;
-
-    private static final long PAUSE_MAKE_STEP = 50; // ms.
-    private static long previsionTime = System.currentTimeMillis();
-    private static long currentTime = previsionTime;
-    public static boolean isTime () {
-        boolean time = false;
-        currentTime = System.currentTimeMillis();
-        if (currentTime >= previsionTime + PAUSE_MAKE_STEP) {
-            previsionTime = currentTime;
-            time = true;
-        }
-
-        return time;
-    }
 
     public Bullet(int y, int x, int edgeX, int edgeY) {
         super(y, x);
@@ -60,6 +49,23 @@ public class Bullet extends Entity {
     @Override
     public Shell getShell() {
         return shell;
+    }
+
+    // pause generation matter
+
+    private static final long PAUSE_MAKE_STEP = 50; // ms.
+    private static long previsionTime = System.currentTimeMillis();
+    private static long currentTime = previsionTime;
+
+    public static boolean isTime () {
+        boolean time = false;
+        currentTime = System.currentTimeMillis();
+        if (currentTime >= previsionTime + PAUSE_MAKE_STEP) {
+            previsionTime = currentTime;
+            time = true;
+        }
+
+        return time;
     }
 
 }
